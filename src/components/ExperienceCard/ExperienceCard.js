@@ -21,7 +21,7 @@ export default function ExperienceCard({
     <FixedSizeCard color={color} text={text}>
       <Title>
         <ImageWrapper href={url} target="_blank" rel="noopener noreferrer" title={company}> 
-          {imgExists ? <Logo src={image} alt={company} onError={() => setImgExist(false)}/> : <Company>{company}</Company>}
+          {imgExists && image ? <Logo src={image} alt={company} onError={() => setImgExist(false)}/> : <Company>{company}</Company>}
         </ImageWrapper>
         <Date>
           {beginDate} - {endDate}
