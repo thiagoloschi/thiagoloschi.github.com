@@ -34,6 +34,7 @@ export const FixedContent = styled.section`
   position: fixed;
   flex: 1;
   width: inherit;
+  z-index: -1;
 
   @media only screen and (max-width: 1024px) {
     position: initial;
