@@ -18,6 +18,8 @@ export const Badge = styled.img`
   margin-right: 24px;
   padding: 8px;
   border: 1px solid #ddd;
+  font-size: 12px;
+  max-width: 100px;
 
   @media only screen and (max-width: 1024px) {
     width: 42px;
