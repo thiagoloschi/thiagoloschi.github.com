@@ -12,7 +12,7 @@ const Section = styled.section`
 
 export const Title = styled.header`
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
 `;
 
@@ -26,7 +26,12 @@ export const Date = styled.p`
 `;
 
 export const ImageWrapper = styled.a`
-  text-align: center;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;
 
 export default Section;

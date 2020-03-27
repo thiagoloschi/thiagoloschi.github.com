@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Title, Date, ImageWrapper } from 'components/Card/look';
-import { FixedSizeCard, Image, Description, Company } from './look';
+import { FixedSizeCard, Logo, Description, Company } from './look';
 
 export default function ExperienceCard({
   period,
@@ -20,7 +20,9 @@ export default function ExperienceCard({
   return (
     <FixedSizeCard color={color} text={text}>
       <Title>
-        <Company>{company}</Company>
+        <ImageWrapper href={url} target="_blank" rel="noopener noreferrer" title={company}> 
+          {imgExists ? <Logo src={image} alt={company} onError={() => setImgExist(false)}/> : <Company>{company}</Company>}
+        </ImageWrapper>
         <Date>
           {beginDate} - {endDate}
         </Date>
@@ -29,9 +31,6 @@ export default function ExperienceCard({
         {jobTitle} - <small>{location}</small>
       </p>
       <Description>{description}</Description>
-      <ImageWrapper href={url} target="_blank" rel="noopener noreferrer">
-        {imgExists && <Image src={image} title={company} alt={company} onError={() => setImgExist(false)}/>}
-      </ImageWrapper>
     </FixedSizeCard>
   );
 }
