@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Title, Date, ImageWrapper } from 'components/Card/look';
 import { FixedSizeCard, Image, Description, Company } from './look';
@@ -15,6 +15,7 @@ export default function ExperienceCard({
   text,
 }) {
   const { beginDate, endDate } = period;
+  const [imgExists, setImgExist] = useState(true);
 
   return (
     <FixedSizeCard color={color} text={text}>
@@ -29,7 +30,7 @@ export default function ExperienceCard({
       </p>
       <Description>{description}</Description>
       <ImageWrapper href={url} target="_blank" rel="noopener noreferrer">
-        <Image src={image} title={company} alt={company} />
+        {imgExists && <Image src={image} title={company} alt={company} onError={() => setImgExist(false)}/>}
       </ImageWrapper>
     </FixedSizeCard>
   );

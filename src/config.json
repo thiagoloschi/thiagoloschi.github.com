@@ -4,7 +4,7 @@
       "firstName": "Thiago",
       "lastName": "Loschi"
     },
-    "jobTitle": "Senior Front End Engineer",
+    "jobTitle": "Lead Front End Engineer",
     "location": "Ottawa, Canada",
     "contacts": [
       {
@@ -39,7 +39,7 @@
       "major": "Computer Science",
       "type": "Non-degree continuing education",
       "place": "Hayward, United States",
-      "badge": "https://media.licdn.com/dms/image/C510BAQGtl_-oVAWDfA/company-logo_400_400/0?e=1551916800&v=beta&t=NLbSN7SCrikdQJ_Vf1IL2HwGUYoWSdubFYrL7qe-NYg",
+      "badge": "images/csueb.png",
       "url": "https://www.csueastbay.edu"
     },
     {
@@ -51,7 +51,7 @@
       "major": "Systems for the Internet",
       "type": "Bachelor of Science",
       "place": "Barbacena, Brazil",
-      "badge": "https://media.licdn.com/dms/image/C560BAQF9F8N5ohm3Mg/company-logo_400_400/0?e=1551916800&v=beta&t=EGVt1jhzVhphbMEPOZdhJoZbYfyU3eGw0K-5KRREnQo",
+      "badge": "src/images/if.png",
       "url": "https://www.ifsudestemg.edu.br/"
     }
   ],
@@ -94,7 +94,7 @@
       "location": "Barbacena, Brazil",
       "description": "We used to build full scalable and stable applications for our clients and the goal was to propose technical solutions to companies problems, what we used to achieve by focusing on listening to their needs and delivering more than software solutions, but satisfaction and value.\n\n The main project was developed for Zôdio, a French company that was coming to Brazil and had their social network as their main business strategy. \n\nWe built the social network using ES6, Angularjs and Ionic, an API in Ruby and a CMS to manage the API in React.",
       "url": "https://prte.com.br",
-      "image": "https://scontent.fcgh23-1.fna.fbcdn.net/v/t31.0-8/17635230_1487664674639567_6041624776622573815_o.jpg?_nc_cat=107&_nc_ht=scontent.fcgh23-1.fna&oh=6c1f6872873769658634a387beed7640&oe=5CA429CA",
+      "image": "https://prte.com.br/assets/img/logo.png",
       "color": "#f81889",
       "text": "#fff"
     },
