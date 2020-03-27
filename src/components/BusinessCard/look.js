@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Title = styled.p`
+  align-items: center;
   font-size: 48px;
   text-align: center;
 `;

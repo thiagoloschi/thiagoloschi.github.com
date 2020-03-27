@@ -37,9 +37,9 @@
       },
       "school": "California State University East Bay",
       "major": "Computer Science",
-      "type": "Non-degree continuing education",
+      "type": "Bachelor of Science - Continuing education",
       "place": "Hayward, United States",
-      "badge": "images/csueb.png",
+      "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/CSUEB.svg/1200px-CSUEB.svg.png",
       "url": "https://www.csueastbay.edu"
     },
     {
@@ -49,24 +49,38 @@
       },
       "school": "Instituto Federal do Sudeste de Minas Gerais",
       "major": "Systems for the Internet",
-      "type": "Bachelor of Science",
+      "type": "Techonology",
       "place": "Barbacena, Brazil",
-      "badge": "src/images/if.png",
+      "badge": "https://www.ifsudestemg.edu.br/imagens/logos/ifsudestemg.png/@@images/e76f03ce-2be3-44b5-bb5b-57b75ebfb254.png",
       "url": "https://www.ifsudestemg.edu.br/"
     }
   ],
   "experiences": [
     {
       "period": {
-        "beginDate": "August 2018",
+        "beginDate": "March 2019",
         "endDate": "current"
+      },
+      "jobTitle": "Lead Front End Engineer",
+      "company": "Slice Labs",
+      "location": "Ottawa, Canada",
+      "description": "Currently fixing insurance at Slice Labs.",
+      "url": "https://slice.is",
+      "image": "data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDIuNjkgMTcyLjg4Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPlNsaWNlLWxvZ28td29yZG1hcmstV2hpdGU8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTIxNy41LDU3LjUyYTExLjkxLDExLjkxLDAsMCwwLDguNzMsMi42LDEzLjExLDEzLjExLDAsMCwwLDYuNi0yLjQ3LDIwLjcxLDIwLjcxLDAsMCwwLDUuMzMtNS42LDI1LjE1LDI1LjE1LDAsMCwwLDMuMzctNy42NywyNS43MSwyNS43MSwwLDAsMCwuNy04LjY3LDEyLjMxLDEyLjMxLDAsMCwwLTQtOC42MSwxMC44NiwxMC44NiwwLDAsMC04LjM5LTIuNjNBMTQuMjUsMTQuMjUsMCwwLDAsMjIyLjkxLDI3YTIwLjM3LDIwLjM3LDAsMCwwLTUuNDQsNS42MUEyNy41LDI3LjUsMCwwLDAsMjE0LDQwLjE2YTIyLjMzLDIyLjMzLDAsMCwwLS44NCw4LjM1UTIxMy42Niw1NC41LDIxNy41LDU3LjUyWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTguNjggLTguNDkpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDA5LjY0LDExNS41NGE0LjY0LDQuNjQsMCwwLDAtMy4zNC0xLjA1LDMuNzYsMy43NiwwLDAsMC0xLjk1LjcyLDguMTQsOC4xNCwwLDAsMC0xLjI0LDEuMTIsNC4zOCw0LjM4LDAsMCwwLTEsMS42NSw0NS45NCw0NS45NCwwLDAsMS04LjIyLDExLDUzLjg0LDUzLjg0LDAsMCwxLTEwLjI3LDcuOTMsMzEuNDUsMzEuNDUsMCwwLDEtMTMuOTMsNC40NSwxOS42NiwxOS42NiwwLDAsMS0xNC4yMi00LjE0cS02LjI0LTQuODMtNy4xLTE0LjgyYTMyLDMyLDAsMCwwLDMuMzkuMzgsMjAuNjUsMjAuNjUsMCwwLDAsNS4xNi4yMnExMC40NC0uOSwxNy4xMS01LjE2YTM0LjcsMzQuNywwLDAsMCwxMC4zNC05LjczQTM1LDM1LDAsMCwwLDM5MC4yOCw4N2EyMSwyMSwwLDAsMC0yLjYzLTguNDksMjQsMjQsMCwwLDAtNS44Ni03QTI3LjE4LDI3LjE4LDAsMCwwLDM3My41Nyw2N2EyMywyMywwLDAsMC05LjcyLTEuMTcsMzYuNCwzNi40LDAsMCwwLTE1LjMsNS4zNCw1My41Myw1My41MywwLDAsMC0xNC40NCwxMi43Nyw2Mi42MSw2Mi42MSwwLDAsMC0xMC4yMiwxOC44OSw1Ni4xMSw1Ni4xMSwwLDAsMC0yLjY3LDIzLjQ5LDMzLjc4LDMzLjc4LDAsMCwwLC41MywzLjY5LDUwLjM3LDUwLjM3LDAsMCwxLTUuNDQsNi40MSw1My4xOCw1My4xOCwwLDAsMS0xMC4wNiw3LjgxLDMwLjQ0LDMwLjQ0LDAsMCwxLTEzLjUsNC4yOSwyMywyMywwLDAsMS0xNi4xMi00LjE5cS02LjgxLTUtNy44MS0xNi41NWE1Mi41Miw1Mi41MiwwLDAsMSwuOTItMTUuMTcsNjAsNjAsMCwwLDEsNC42MS0xMy45MywzNS41NiwzNS41NiwwLDAsMSw3LjI3LTEwLjM2LDE1LDE1LDAsMCwxLDkuMTItNC40OCw3LjMzLDcuMzMsMCwwLDEsNC42NywxQTQuMSw0LjEsMCwwLDEsMjk3LjU4LDg4YTMuODEsMy44MSwwLDAsMS0xLjE4LDMuMTJjLS45LjktMS44NiwxLjg3LTIuODgsMi45M2EyMC44OCwyMC44OCwwLDAsMC0yLjcyLDMuNDgsNy42MSw3LjYxLDAsMCwwLS45Myw0Ljc4LDguMjUsOC4yNSwwLDAsMCw0LDYuMjVBMTIuMjMsMTIuMjMsMCwwLDAsMzAyLDExMC42YTguMjksOC4yOSwwLDAsMCw0LjQyLTEuOTUsMTkuODIsMTkuODIsMCwwLDAsNC00LjM3LDIxLjUzLDIxLjUzLDAsMCwwLDIuNzUtNS43MSwxNiwxNiwwLDAsMCwuNzEtNiwxOC40MSwxOC40MSwwLDAsMC0yLjQ0LTcuNTEsMjMuMjYsMjMuMjYsMCwwLDAtNS42LTYuNTYsMjQuNjQsMjQuNjQsMCwwLDAtOC4zMS00LjMxLDI4LjQyLDI4LjQyLDAsMCwwLTEwLjgyLTEsMzguNzUsMzguNzUsMCwwLDAtMTYuOTMsNS45NEE1OC4xNSw1OC4xNSwwLDAsMCwyNTQuNyw5Mi41NWE2Mi43NCw2Mi43NCwwLDAsMC0xMC4yNCwxOC42Niw1MS4yOCw1MS4yOCwwLDAsMC0yLjcxLDIxLjYsMzguNTUsMzguNTUsMCwwLDAsMS42OCw4LjY2Yy0uMTcuMjEtLjMzLjQzLS41LjYzYTM4Ljg4LDM4Ljg4LDAsMCwxLTcuMDgsNy4zMiwxNS42MywxNS42MywwLDAsMS04LjUyLDMuNjQsNi4zNSw2LjM1LDAsMCwxLTUuNDItMS44Nyw5LjQ5LDkuNDksMCwwLDEtMi40MS01Ljk1LDYyLjczLDYyLjczLDAsMCwxLC41NS0xNS41OXExLjI0LTcuNTksMy0xNC40NnQzLjI0LTEyLjkxYTM0LjExLDM0LjExLDAsMCwwLDEuMDUtMTEuMTcsNi4xNCw2LjE0LDAsMCwwLTIuMDctMy4yOCwyNy4zNiwyNy4zNiwwLDAsMC00LjgtMy43MywzOC4zNywzOC4zNywwLDAsMC02LjA4LTNBMTIuNzksMTIuNzksMCwwLDAsMjA4LjcxLDgwYTUuNjMsNS42MywwLDAsMC0zLjQ1LDEuNTMsOC44MSw4LjgxLDAsMCwwLTIuMTgsMy4ycS0xLjU5LDQuODUtMy45MiwxMi44N3QtNC4yNCwxNi45MXEtMS45LDguOS0zLjE4LDE3LjVjLS4zOCwyLjU1LS42Myw0LjkxLS43Nyw3LjEyYTQ3Ljc5LDQ3Ljc5LDAsMCwxLTUuMzMsNy45NCwzOS4yOSwzOS4yOSwwLDAsMS03LjA5LDcuMzNBMTUuNzUsMTUuNzUsMCwwLDEsMTcwLDE1OHEtNi44OS42LTExLTR0LTQuNzYtMTIuMzRjLS4xNi0xLjkyLS4yNi0zLjg5LS4yOC01LjlhNDkuOTEsNDkuOTEsMCwwLDEsLjE5LTUuNWMuMTMtMS45NC4yNi0zLjgyLjQxLTUuNjJhMTgwLjY0LDE4MC42NCwwLDAsMSwyLjc2LTE5LjU4YzM5LjA1LTIzLjI2LDQzLjgtNjUuNTgsNDMuOC02NS41OGgwYTMxLjQzLDMxLjQzLDAsMCwwLC43Ny04Ljg0LDE0LjA5LDE0LjA5LDAsMCwwLTIuMDgtNiwyMi45LDIyLjksMCwwLDAtNC42Mi01LjUzQTIzLjM5LDIzLjM5LDAsMCwwLDE4OSwxNS4yNmExNC45MiwxNC45MiwwLDAsMC03LjI2LTEuMTZxLTgsLjY5LTE1LjM1LDcuMzdhNzYuNzIsNzYuNzIsMCwwLDAtMTMuODIsMTcuNEExNDUuNjcsMTQ1LjY3LDAsMCwwLDE0MS4xMyw2M2EyNTIuMzEsMjUyLjMxLDAsMCwwLTguNDcsMjcuNDZxLTEuOTMsNy44My0zLjIyLDE1LjU2QTcyLDcyLDAsMCwxLDExNCwxMDkuNjhjLTEuMjYtMi4yOS0yLjYyLTQuNTctNC4xLTYuODVRMTA1LjgxLDk2LjQ4LDEwMSw5MC4yVDkyLjA5LDc3LjU2YTEwMC4wOCwxMDAuMDgsMCwwLDEtNy4xNy0xMyw0MS44NCw0MS44NCwwLDAsMS0zLjY1LTEzLjc5LDI0LjgyLDI0LjgyLDAsMCwxLDEuMTYtOS45MiwyNi4xMiwyNi4xMiwwLDAsMSw0LjgzLTguNzUsMjgsMjgsMCwwLDEsNy45NC02LjQ2LDI1LjgyLDI1LjgyLDAsMCwxLDEwLjQ3LTMuMSwxMi4yMywxMi4yMywwLDAsMSw4LjA5LDEuNzMsOC41MSw4LjUxLDAsMCwxLDMuNiw2LjczLDIyLjg5LDIyLjg5LDAsMCwxLTIuMTUsMTEuNCw2OC42Miw2OC42MiwwLDAsMS01LjM5LDEwLjA2LDI5LjM0LDI5LjM0LDAsMCwwLTIsMy41Myw0LjY1LDQuNjUsMCwwLDAtLjM3LDIuMjMsMy4zNSwzLjM1LDAsMCwwLDEuMzEsMi4yLDMuNTksMy41OSwwLDAsMCwyLjc2LjkyYzEuOTItLjE3LDQuNTgtMS40LDgtMy43YTUzLDUzLDAsMCwwLDkuNzYtOC43LDU2LjA4LDU2LjA4LDAsMCwwLDcuOTQtMTEuNTYsMjIuNTUsMjIuNTUsMCwwLDAsMi43Mi0xMi40OCwxNCwxNCwwLDAsMC0zLjI3LTguMTYsMTkuOTQsMTkuOTQsMCwwLDAtNy4yOC01LjI2LDM1LjQ2LDM1LjQ2LDAsMCwwLTEwLjA2LTIuNiw1Ny44Myw1Ny44MywwLDAsMC0xMS44Ny0uMTMsNzAuNDQsNzAuNDQsMCwwLDAtMjAsNC44NUE2NC4zNCw2NC4zNCwwLDAsMCw2OS40NywyNC4xNSw1MC4yOSw1MC4yOSwwLDAsMCw1NywzOS41NWEzNS4yLDM1LjIsMCwwLDAtMy42NywxOS42Myw0OS40Niw0OS40NiwwLDAsMCw2Ljg1LDIxcTUuOTEsMTAsMTIuNjMsMTkuMjUsMi44OCw0LDUuNTksNy44NGMtMTQuNTktMi42MS0yOS01LjYtNDEuMjEtMS43NC0xNi4zMyw1LjE1LTIxLjU1LDEyLjg1LTI2LDIyLjIxcy0yLjUzLDIzLDEuNzYsMzAuNjIsMTIuMTcsMTcuMjEsMzIuMjYsMjEuMzdTODguNzcsMTgwLDEwNS4wOCwxNjhzMTYuMi0zMi4xNCwxNS42MS0zOWEzOS4zLDM5LjMsMCwwLDAtMS4yNC02LjksNjIsNjIsMCwwLDAsOC4yMS0yLjI0LDEzMS40MywxMzEuNDMsMCwwLDAtLjI4LDIzLjM0LDMzLjg4LDMzLjg4LDAsMCwwLDQsMTMuNzQsMzEuOTMsMzEuOTMsMCwwLDAsOC4zNSw5LjlBMzEuMzcsMzEuMzcsMCwwLDAsMTUxLDE3Mi40MWEzNy4yNywzNy4yNywwLDAsMCwxMywxLjEyQTI5LjA2LDI5LjA2LDAsMCwwLDE3OC44NCwxNjhhNjMsNjMsMCwwLDAsMTEuMjktMTAuMzdxMS4zOC0xLjYzLDIuNjgtMy4zOGEyMS44MywyMS44MywwLDAsMCw3LjQ4LDkuMzNxOC4zNCw2LjA5LDIxLDVBMjksMjksMCwwLDAsMjM2LjEzLDE2M2E2My40MSw2My40MSwwLDAsMCwxMS4zLTEwLjM3Yy40NC0uNTMuODYtMS4xLDEuMy0xLjY1YTI5LjgxLDI5LjgxLDAsMCwwLDguMTYsNi44NywzOS4wOCwzOS4wOCwwLDAsMCwxMy40OCw0LjY1LDYwLjMyLDYwLjMyLDAsMCwwLDE0LjQ3LjUzLDUwLjY4LDUwLjY4LDAsMCwwLDIwLjg0LTYsNzYuNDIsNzYuNDIsMCwwLDAsMTQuODQtMTAuNjcsNzUuNjksNzUuNjksMCwwLDAsNS40OC02LDMxLDMxLDAsMCwwLDguMTMsOC40MywzNy42MSwzNy42MSwwLDAsMCwxMi43OSw1LjcxLDQ3LjU1LDQ3LjU1LDAsMCwwLDE1Ljc1LDEuMXExMi42Ni0xLjEsMjEuNS02LjExYTcwLjIyLDcwLjIyLDAsMCwwLDE0LjYyLTEwLjY2LDU2LjgsNTYuOCwwLDAsMCwxMS0xNC44MnEuMzUtMS4xNC43Mi0yLjA3Yy4yNC0uNjIuNDUtMS4xOS42My0xLjczYTQuMTksNC4xOSwwLDAsMCwuMTktMS43QTQuMTQsNC4xNCwwLDAsMCw0MDkuNjQsMTE1LjU0Wk0zNTAuMDUsMTAyLjhBNTcuNjYsNTcuNjYsMCwwLDEsMzU0LjczLDkxYTQxLjA5LDQxLjA5LDAsMCwxLDcuMS05Ljc4LDE0LDE0LDAsMCwxLDguNzctNC41NmMyLjY2LS4yMyw0LjEzLDEuMTMsNC4zOCw0LjA5YTIyLjY0LDIyLjY0LDAsMCwxLTEuNDcsOC44NUE0Myw0MywwLDAsMSwzNjguMjYsMTAwYTM3LjQyLDM3LjQyLDAsMCwxLTguNTEsOC45LDIxLjE5LDIxLjE5LDAsMCwxLTExLDQuMzFBMzAuNDQsMzAuNDQsMCwwLDEsMzUwLjA1LDEwMi44Wk0xNzEuNTMsNTVhMTI0LjM4LDEyNC4zOCwwLDAsMSw4Ljg3LTE4Ljg4cTQuNDEtNy4zLDcuNTEtNy41OGMxLjc4LS4xNSwyLjc1LjgxLDIuOTMsMi44OGEzMS42MiwzMS42MiwwLDAsMS0xLjE5LDkuNDljLS43OSwzLjMxLTEuODQsNi45Mi0zLjExLDEwLjgtOC4zMSwyMC41LTE2LjY4LDMxLjI1LTI2LjE5LDM4LjUyLjc3LTMuMTUsMS42NS02LjI5LDIuNTYtOS40M1ExNjcsNjYuNTksMTcxLjUzLDU1Wk04NS45LDE1NmMtNC43NCw1LjQ5LTIwLjg0LDEwLjkzLTMwLjg2LDcuNzVzLTEzLjUzLTguNjItMTYtMTMuODctNS0yMC41LDYuMTEtMzAuOTNjOS4wOC04LjU3LDI5LjE5LTMsNDEuMzYuMjlhMzUuODYsMzUuODYsMCwwLDEsNS40LDE1LjQzUTkzLDE0Ny43Niw4NS45LDE1NloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04LjY4IC04LjQ5KSIvPjwvc3ZnPg==",
+      "color": "#d1384b",
+      "text": "#fff"
+    },
+    {
+      "period": {
+        "beginDate": "August 2018",
+        "endDate": "March 2019"
       },
       "jobTitle": "Senior Front End Engineer",
       "company": "Farfecth",
       "location": "Sao Paulo, Brazil",
       "description": "Working in a multidisciplinary global team, I'm currently helping to build what we consider to be the store of the future. My team is responsible for creating world class connected devices that will boost shoppers experience from the moment they walk in the store until they're ready to leave, making it also possible for them to continue shopping from home.\n\n There are two main React applications we're building and they're mostly being built using Redux, Nextjs, Electron, Webpack, Jest and Enzyme. The main one will be used on our fitting room's smart mirrors.\n\n I'm currently working on two product lines, the Store of The Future and the Black and White platform. Our core clients are huge and well known fashion brands like Chanel, Thom Browne and Browns and we always keep in mind the idea of having our products ready to be used for new clients in the future.",
       "url": "https://farfetch.com",
-      "image": "https://i.amz.mshcdn.com/VWqhqdBXySHLqXPwYFLJOa3aJ54=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F446429%2Fa86e424d-51cc-447c-831b-a4b076a9a955.jpg",
+      "image": "https://cdn-static.farfetch-contents.com/v2-33-20086-516/static/images/bobLogo.svg",
       "color": "#fafafa",
       "text": "#333"
     },
@@ -80,7 +94,7 @@
       "location": "Sao Paulo, Brazil",
       "description": "With a product driven mindset and many talented people, I helped to build QuintoAndar, the new generation real estate services in Brazil, with top-notch technologies such as PWA, ES6, React, Redux, Webpack, Nodejs, Jest, Enzyme, and others. This was by far the most enriching experience I had so far.\n\n Some of the accomplishments I helped achieving were:\n\n- Improve company's NPS to a challenging rate\n- Build features to help the company to scale\n- Build APIs that integrates with WhatsApp to improve our communications with our customers\n- Build features to improve SEO and marketing presence \n- Improve our apps performance",
       "url": "https://quintoandar.com.br",
-      "image": "https://www.kaszek.com/wp-content/uploads/2018/03/qa.png",
+      "image": "https://meulugar.quintoandar.com.br/wp-content/themes/meulugar-rebrand/dist/images/brand/5a-white.svg",
       "color": "#5063f0",
       "text": "#fff"
     },
@@ -104,11 +118,11 @@
         "endDate": "March 2017"
       },
       "jobTitle": "Front End Developer",
-      "company": "Self",
+      "company": "Instmanager",
       "location": "Barbacena, Brazil",
       "description": "I've always worked by myself and at this point, I had just returned to Brazil to finish my Sandwich Graduation. \n\nI developed small projects using mostly Nodejs, Angularjs, Express and Mongodb. \n\nThe most impactful one was Instmanager, a client for Instagram that lets you manage your information and also gives you exclusive insights gathered from matching different data returned from the Instagram API.",
       "url": "https://instmanager.herokuapp.com",
-      "image": "https://instmanager.herokuapp.com/img/main.png",
+      "image": "",
       "color": "rgba(153,47,255,1)",
       "text": "#fff"
     },
@@ -122,7 +136,7 @@
       "location": "Irvine, United States",
       "description": "During this Summer Internship, I was part of the team developing a project called iXercise, which aims to stimulate people exercising while they're playing games as Minecraft or Pokemon GO.\n\n I helped building the web app Front End with Angularjs and I also got to give some small Java contributions.",
       "url": "https://uci.edu/",
-      "image": "https://www.logolynx.com/images/logolynx/bd/bdc28b420a16378fd4698e0b55c7faf7.jpeg",
+      "image": "",
       "color": "#0064a4",
       "text": "#fff"
     }
