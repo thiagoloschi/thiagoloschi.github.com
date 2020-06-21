@@ -16,12 +16,6 @@ export const Image = styled.img`
   max-height: 340px;
 `;
 
-export const Logo = styled.img`
-  width: 150px;
-  height: auto;
-  margin-top: 1rem;
-`;
-
 export const Description = styled.p`
   opacity: 0.9;
   line-height: 20px;

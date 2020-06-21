@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Title, Date, ImageWrapper } from 'components/Card/look';
-import { FixedSizeCard, Logo, Description, Company } from './look';
+import { FixedSizeCard, Description, Company } from './look';
+import { Logos } from 'components';
 
 export default function ExperienceCard({
   period,
@@ -13,15 +14,25 @@ export default function ExperienceCard({
   image,
   color,
   text,
+  local = false,
 }) {
   const { beginDate, endDate } = period;
-  const [imgExists, setImgExist] = useState(true);
 
   return (
     <FixedSizeCard color={color} text={text}>
       <Title>
-        <ImageWrapper href={url} target="_blank" rel="noopener noreferrer" title={company}> 
-          {imgExists && image ? <Logo src={image} alt={company} onError={() => setImgExist(false)}/> : <Company>{company}</Company>}
+        <ImageWrapper
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          title={company}
+        >
+          <Logos
+            image={image}
+            fallback={<Company>{company}</Company>}
+            local={local}
+            company={company}
+          />
         </ImageWrapper>
         <Date>
           {beginDate} - {endDate}
@@ -42,9 +53,10 @@ ExperienceCard.propTypes = {
   }),
   jobTitle: PropTypes.string,
   company: PropTypes.string,
+  image: PropTypes.string,
+  local: PropTypes.bool,
   description: PropTypes.string,
   url: PropTypes.string,
-  image: PropTypes.string,
   color: PropTypes.string,
   text: PropTypes.string,
 };
