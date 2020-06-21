@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
+        name: 'thiagoloschi.com',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
@@ -26,5 +26,15 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    {
+      resolve: 'gatsby-plugin-module-resolver',
+      options: {
+        root: './src',
+        aliases: {
+          'components': './components',
+          'images': './images'
+        }
+      }
+    }
   ],
 };
