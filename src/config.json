@@ -94,7 +94,8 @@
       "location": "Sao Paulo, Brazil",
       "description": "With a product driven mindset and many talented people, I helped to build QuintoAndar, the new generation real estate services in Brazil, with top-notch technologies such as PWA, ES6, React, Redux, Webpack, Nodejs, Jest, Enzyme, and others. This was by far the most enriching experience I had so far.\n\n Some of the accomplishments I helped achieving were:\n\n- Improve company's NPS to a challenging rate\n- Build features to help the company to scale\n- Build APIs that integrates with WhatsApp to improve our communications with our customers\n- Build features to improve SEO and marketing presence \n- Improve our apps performance",
       "url": "https://quintoandar.com.br",
-      "image": "https://meulugar.quintoandar.com.br/wp-content/themes/meulugar-rebrand/dist/images/brand/5a-white.svg",
+      "image": "quintoandar",
+      "local": true,
       "color": "#5063f0",
       "text": "#fff"
     },
