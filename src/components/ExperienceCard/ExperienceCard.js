@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { Title, Date, ImageWrapper } from 'components/Card/look';
 import { FixedSizeCard, Description, Company } from './look';
