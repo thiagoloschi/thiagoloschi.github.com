@@ -7,6 +7,7 @@ export default function EducationCard({
   period,
   school,
   major,
+  color,
   type,
   place,
   badge,
@@ -17,14 +18,11 @@ export default function EducationCard({
   return (
     <ContainedCard>
       <ImageWrapper href={url} target="_blank" rel="noopener noreferrer">
-        <Badge src={badge} title={school} alt={school} />
+        <Badge src={badge} title={school} alt={school} color={color} />
       </ImageWrapper>
       <InfoSection>
         <Title>
           <School>{school}</School>
-          <Date>
-            {beginDate} - {endDate}
-          </Date>
         </Title>
         <Major>
           {major} - <small>{place}</small>
@@ -44,4 +42,5 @@ EducationCard.propTypes = {
   major: PropTypes.string,
   type: PropTypes.string,
   place: PropTypes.string,
+  color: PropTypes.string,
 };

@@ -11,3 +11,12 @@ export const JobTitle = styled.p`
   opacity: 0.7;
   margin: -40px 0 48px 0;
 `;
+
+export const Avatar = styled.div`
+  border: 2px solid #333;
+  width: fit-content;
+  margin: auto;
+  border-radius: 125px;
+  background: black;
+  overflow: hidden;
+`;

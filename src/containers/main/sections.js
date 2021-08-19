@@ -20,8 +20,9 @@ export const Main = styled.main`
 `;
 
 export const LeftSection = styled.section`
+  display: flex;
+  justify-content: center;
   flex: 1;
-  width: 50%;
   min-width: 400px;
   z-index: 1;
 
@@ -43,9 +44,8 @@ export const FixedContent = styled.section`
 `;
 
 export const RightSection = styled.section`
-  flex: 1;
-  width: 55%;
-  min-width: 400px;
+  width: 40%;
+  min-width: 300px;
 
   @media only screen and (max-width: 1024px) {
     width: 100%;

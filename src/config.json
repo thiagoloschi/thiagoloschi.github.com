@@ -4,6 +4,7 @@
       "firstName": "Thiago",
       "lastName": "Loschi"
     },
+    "avatar": "https://secure.gravatar.com/avatar/58758c4ab3f56ca54088ed5ff3a4b852",
     "jobTitle": "Lead Front End Engineer",
     "location": "Ottawa, Canada",
     "contacts": [
@@ -40,7 +41,8 @@
       "type": "Bachelor of Science - Continuing education",
       "place": "Hayward, United States",
       "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/CSUEB.svg/1200px-CSUEB.svg.png",
-      "url": "https://www.csueastbay.edu"
+      "url": "https://www.csueastbay.edu",
+      "color": "#fff"
     },
     {
       "period": {
@@ -52,7 +54,8 @@
       "type": "Techonology",
       "place": "Barbacena, Brazil",
       "badge": "https://www.ifsudestemg.edu.br/imagens/logos/ifsudestemg.png/@@images/e76f03ce-2be3-44b5-bb5b-57b75ebfb254.png",
-      "url": "https://www.ifsudestemg.edu.br/"
+      "url": "https://www.ifsudestemg.edu.br/",
+      "color": "#fff"
     }
   ],
   "experiences": [
@@ -68,7 +71,8 @@
       "url": "https://shopify.com",
       "image": "https://cdn.shopify.com/shopifycloud/brochure/assets/brand-assets/shopify-logo-inverted-primary-logo-bdc6ddd67862d9bb1f8c559e1bb50dd233112ac57b29cac2edcf17ed2e1fe6fa.svg",
       "color": "#008060",
-      "text": "#fff"
+      "text": "#fff",
+      "industry": "e-commerce"
     },
     {
       "period": {
@@ -78,11 +82,12 @@
       "jobTitle": "Lead Front End Engineer",
       "company": "Slice Labs",
       "location": "Ottawa, Canada",
-      "description": "At Slice Labs I had the pleasure to lead the web foundations team for the most part of the journey, and also the mobile team for a few months.\n\nAs a people leader, my focus has always been on building strong and cohesive teams, having trust, transparency, communication, synergy and collaboration as the pillars of our current and future success as a team.\n\nMy teams' effort was to continuously deliver innovative products, built for the long term, ensuring code quality and best practices.\n\nOur biggest challenge as a team was to build the platform behind the insurance products, in a way that each one of these products' architecture could be reused by any insurance partner, at the time or in the future.\n\nOur biggest secret to achieve our missions was to truly empower each individual on the team, and it's amazing to see what motivated engineers, working at their full potential can do.\n\nAnother brilliant part of this job was to be able to contribute to improving processes such as onboarding, team rituals, best practices, and also interviewing and hiring super talented people.",
+      "description": "",
       "url": "https://slice.is",
       "image": "https://ics-pan00-prd00-us-assets.s3.amazonaws.com/content/O3efb006a6fd2a16bc7f7313490a2158b96b9af8182272615a9647310d07de923.png",
       "color": "#d1384b",
-      "text": "#fff"
+      "text": "#fff",
+      "industry": "insurance"
     },
     {
       "period": {
@@ -92,11 +97,12 @@
       "jobTitle": "Senior Front End Engineer",
       "company": "Farfecth",
       "location": "Sao Paulo, Brazil",
-      "description": "Working in a multidisciplinary global team, I helped building what we consider to be the store of the future. My team was responsible for creating world class UI/UX for connected devices that are boosting shoppers experience from the moment they walk in the store until they're ready to leave, making it also possible for them to continue shopping from home.\n\nThere were two main React applications that I helped build, and they were built with Electron, with Redux, Nextjs, Webpack, Jest and Enzyme. The main one was running on fitting room's smart mirrors of selected stores.\n\nI worked directly on two product lines, the Store of The Future and the Black and White platform. Farfetch's core clients are huge and famous fashion brands like Chanel, Thom Browne, Browns and few others.",
+      "description": "",
       "url": "https://farfetch.com",
       "image": "https://cdn-static.farfetch-contents.com/v2-33-20086-516/static/images/bobLogo.svg",
       "color": "#fafafa",
-      "text": "#333"
+      "text": "#333",
+      "industry": "luxury e-commerce"
     },
     {
       "period": {
@@ -106,12 +112,13 @@
       "jobTitle": "Front End Engineer",
       "company": "QuintoAndar",
       "location": "Sao Paulo, Brazil",
-      "description": "With a product driven mindset and many talented people, I helped to build QuintoAndar, the new generation real estate services in Brazil, with top-notch technologies such as PWA, ES6, React, Redux, Webpack, Nodejs, Jest, Enzyme, and others. This was one of the most enriching experience I had in my career in such a fast paced and well managed company.\n\n Some of the accomplishments I helped achieving were:\n\n- Build features to help improve the company's NPS to a challenging rate\n- Build features to help the company to scale across the country\n- Build APIs to integrate with WhatsApp and improve the communications with customers\n- Build features to improve SEO and marketing presence \n- Improve the web apps' performance",
+      "description": "",
       "url": "https://quintoandar.com.br",
       "image": "quintoandar",
       "local": true,
       "color": "#5063f0",
-      "text": "#fff"
+      "text": "#fff",
+      "industry": "internet / real estate"
     },
     {
       "period": {
@@ -121,45 +128,18 @@
       "jobTitle": "Full Stack Developer",
       "company": "PRTE Tecnologia",
       "location": "Barbacena, Brazil",
-      "description": "We used to build full scalable and stable applications for our clients and the goal was to propose technical solutions to companies problems, what we used to achieve by focusing on listening to their needs and delivering more than software solutions, but satisfaction and value.\n\n The main project was developed for Zôdio, a French company that was coming to Brazil and had their social network as their main business strategy. \n\nWe built the social network using ES6, Angularjs and Ionic, an API in Ruby and we also built an admin to manage the API in React.",
+      "description": "",
       "url": "https://prte.com.br",
       "image": "https://prte.com.br/assets/img/logo.png",
       "color": "#f81889",
-      "text": "#fff"
-    },
-    {
-      "period": {
-        "beginDate": "September 2016",
-        "endDate": "March 2017"
-      },
-      "jobTitle": "Front End Developer",
-      "company": "Instmanager",
-      "location": "Barbacena, Brazil",
-      "description": "I've always worked by myself and at this point, I had just returned to Brazil to finish my Sandwich Graduation. \n\nI developed small projects using mostly Nodejs, Angularjs, Express and Mongodb. \n\nThe most impactful one was Instmanager, a client for Instagram that lets you manage your information and also gives you exclusive insights gathered from matching different data returned from the Instagram API.",
-      "url": "https://instmanager.herokuapp.com",
-      "image": "",
-      "color": "rgba(153,47,255,1)",
-      "text": "#fff"
-    },
-    {
-      "period": {
-        "beginDate": "June 2016",
-        "endDate": "September 2016"
-      },
-      "jobTitle": "Front End Developer",
-      "company": "University of California, Irvine",
-      "location": "Irvine, United States",
-      "description": "During this Summer Internship, I was part of the team developing a project called iXercise, which aims to stimulate people exercising while they're playing games as Minecraft or Pokemon GO.\n\n I helped building the web app Front End with Angularjs and I also got to give some small Java contributions.",
-      "url": "https://uci.edu/",
-      "image": "",
-      "color": "#0064a4",
-      "text": "#fff"
+      "text": "#fff",
+      "industry": "information tecnology"
     }
   ],
   "theme": {
-    "color": "#fff",
+    "color": "#333",
     "fontUrl": "https://fonts.googleapis.com/css?family=Montserrat",
     "fontName": "'Montserrat', sans-serif",
-    "fontColor": "#000"
+    "fontColor": "#fff"
   }
 }

@@ -20,6 +20,7 @@ export const Badge = styled.img`
   border: 1px solid #ddd;
   font-size: 12px;
   max-width: 100px;
+  background: ${({ color }) => color };
 
   @media only screen and (max-width: 1024px) {
     width: 42px;
