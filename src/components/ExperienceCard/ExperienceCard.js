@@ -8,6 +8,7 @@ export default function ExperienceCard({
   period,
   jobTitle,
   company,
+  industry,
   location,
   description,
   url,
@@ -34,9 +35,10 @@ export default function ExperienceCard({
             company={company}
           />
         </ImageWrapper>
-        <Date>
+        {/* <Date>
           {beginDate} - {endDate}
-        </Date>
+        </Date> */}
+        {industry && <small>{String(industry).toUpperCase()}</small>}
       </Title>
       <p>
         {jobTitle} - <small>{location}</small>
@@ -59,4 +61,5 @@ ExperienceCard.propTypes = {
   url: PropTypes.string,
   color: PropTypes.string,
   text: PropTypes.string,
+  industry: PropTypes.string,
 };

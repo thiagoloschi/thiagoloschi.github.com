@@ -1,16 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Card from 'components/Card';
-import { Title, JobTitle } from './look';
+import { Title, JobTitle, Avatar } from './look';
 
 import Contacts from 'components/ContactFactory';
 
 export default function BusinessCard({ personalInfo }) {
-  const { name, jobTitle, location, contacts } = personalInfo;
+  const { name, jobTitle, location, contacts, avatar } = personalInfo;
   const { firstName, lastName } = name;
 
   return (
     <Card>
+      {avatar && <Avatar>
+        <img width="200px" src="https://ca.slack-edge.com/E017D49VC3F-W018GBWJJ9K-e64f5c7e29a9-512" alt="profile picture" />
+      </Avatar>}
       <Title>
         {firstName}
         <strong> {lastName}</strong>
@@ -33,4 +36,5 @@ BusinessCard.propTypes = {
   }),
   jobTitle: PropTypes.string,
   contacts: PropTypes.array,
+  avatar: PropTypes.string,
 };
