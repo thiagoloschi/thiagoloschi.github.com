@@ -6,29 +6,23 @@ export const Main = styled.main`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  max-height: 100vh;
-  background-color: ${({ theme }) => theme.color };
-  
+  justify-content: center;
+    
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   z-index: 2;
-
   &::-webkit-scrollbar {
     display: none;
   }
+  
 `;
 
 export const LeftSection = styled.section`
   display: flex;
   justify-content: center;
   flex: 1;
-  min-width: 400px;
   z-index: 1;
 
-  @media only screen and (max-width: 1024px) {
-    width: 100%;
-  }
 `;
 
 export const FixedContent = styled.section`
@@ -44,10 +38,5 @@ export const FixedContent = styled.section`
 `;
 
 export const RightSection = styled.section`
-  width: 40%;
-  min-width: 300px;
-
-  @media only screen and (max-width: 1024px) {
-    width: 100%;
-  }
+  
 `;

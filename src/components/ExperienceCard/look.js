@@ -2,10 +2,9 @@ import styled from 'styled-components';
 import Card from 'components/Card';
 
 export const FixedSizeCard = styled(Card)`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 790px;
+  width: 450px;
+  height: 250px;
+  padding: 20px;
 `;
 
 export const Image = styled.img`
