@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Date, ImageWrapper } from 'components/Card/look';
+import { Title, ImageWrapper } from 'components/Card/look';
 import { School, Major, Badge, ContainedCard, InfoSection } from './look';
 
 export default function EducationCard({
-  period,
   school,
   major,
   color,
@@ -13,7 +12,6 @@ export default function EducationCard({
   badge,
   url,
 }) {
-  const { beginDate, endDate } = period;
 
   return (
     <ContainedCard>
@@ -34,10 +32,6 @@ export default function EducationCard({
 }
 
 EducationCard.propTypes = {
-  period: PropTypes.shape({
-    beginDate: PropTypes.string,
-    endDate: PropTypes.string,
-  }),
   school: PropTypes.string,
   major: PropTypes.string,
   type: PropTypes.string,

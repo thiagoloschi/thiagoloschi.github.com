@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { personalInfo } from './config';
+import { personalInfo, theme } from './config';
 const { firstName, lastName } = personalInfo.name;
 
 export default class HTML extends React.Component {
@@ -21,7 +21,7 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
         </head>
         <body
-          style={{ margin: 0, overflow: 'hidden' }}
+          style={{ margin: 0, backgroundColor: theme.color }}
           {...this.props.bodyAttributes}
         >
           {this.props.preBodyComponents}

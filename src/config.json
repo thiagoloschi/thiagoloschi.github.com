@@ -4,7 +4,7 @@
       "firstName": "Thiago",
       "lastName": "Loschi"
     },
-    "avatar": "https://secure.gravatar.com/avatar/58758c4ab3f56ca54088ed5ff3a4b852",
+    "avatar": "avatar",
     "jobTitle": "Lead Front End Engineer",
     "location": "Ottawa, Canada",
     "contacts": [
@@ -67,12 +67,26 @@
       "jobTitle": "Senior Front End Developer",
       "company": "Shopify",
       "location": "Ottawa, Canada",
-      "description": "Currently making commerce better for everyone",
+      "description": "Shopify is a leading global commerce company, providing trusted tools to start, grow, market, and manage a retail business of any size.",
       "url": "https://shopify.com",
       "image": "https://cdn.shopify.com/shopifycloud/brochure/assets/brand-assets/shopify-logo-inverted-primary-logo-bdc6ddd67862d9bb1f8c559e1bb50dd233112ac57b29cac2edcf17ed2e1fe6fa.svg",
       "color": "#008060",
       "text": "#fff",
-      "industry": "e-commerce"
+      "industry": "e-commerce",
+      "contacts": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/shopify/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/shopify"
+        },
+        {
+          "name": "career",
+          "url": "https://github.com/shopify"
+        }
+      ]
     },
     {
       "period": {
@@ -82,12 +96,26 @@
       "jobTitle": "Lead Front End Engineer",
       "company": "Slice Labs",
       "location": "Ottawa, Canada",
-      "description": "",
+      "description": "Slice Labs is a technology company with the first on-demand cloud platform building digital insurance products.",
       "url": "https://slice.is",
       "image": "https://ics-pan00-prd00-us-assets.s3.amazonaws.com/content/O3efb006a6fd2a16bc7f7313490a2158b96b9af8182272615a9647310d07de923.png",
       "color": "#d1384b",
       "text": "#fff",
-      "industry": "insurance"
+      "industry": "insurance",
+      "contacts": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/shopify/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/shopify"
+        },
+        {
+          "name": "career",
+          "url": "https://github.com/shopify"
+        }
+      ]
     },
     {
       "period": {
@@ -97,12 +125,26 @@
       "jobTitle": "Senior Front End Engineer",
       "company": "Farfecth",
       "location": "Sao Paulo, Brazil",
-      "description": "",
+      "description": "FARFETCH is the leading global platform for the luxury fashion industry.",
       "url": "https://farfetch.com",
       "image": "https://cdn-static.farfetch-contents.com/v2-33-20086-516/static/images/bobLogo.svg",
       "color": "#fafafa",
       "text": "#333",
-      "industry": "luxury e-commerce"
+      "industry": "luxury e-commerce",
+      "contacts": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/shopify/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/shopify"
+        },
+        {
+          "name": "career",
+          "url": "https://github.com/shopify"
+        }
+      ]
     },
     {
       "period": {
@@ -112,13 +154,27 @@
       "jobTitle": "Front End Engineer",
       "company": "QuintoAndar",
       "location": "Sao Paulo, Brazil",
-      "description": "",
+      "description": "QuintoAndar is a Brazilian technology company that was created to simplify the lives of those looking for a new home.",
       "url": "https://quintoandar.com.br",
       "image": "quintoandar",
       "local": true,
       "color": "#5063f0",
       "text": "#fff",
-      "industry": "internet / real estate"
+      "industry": "internet / real estate",
+      "contacts": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/shopify/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/shopify"
+        },
+        {
+          "name": "career",
+          "url": "https://github.com/shopify"
+        }
+      ]
     },
     {
       "period": {
@@ -128,12 +184,26 @@
       "jobTitle": "Full Stack Developer",
       "company": "PRTE Tecnologia",
       "location": "Barbacena, Brazil",
-      "description": "",
+      "description": "PRTE supports other companies to carry out incredible projects that generate value for people's lives, through specialized technological consultancy. PRTE stands for People, Respect, Technology and Entrepreneurship.",
       "url": "https://prte.com.br",
       "image": "https://prte.com.br/assets/img/logo.png",
       "color": "#f81889",
       "text": "#fff",
-      "industry": "information tecnology"
+      "industry": "information tecnology",
+      "contacts": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/company/somosprte/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/shopify"
+        },
+        {
+          "name": "career",
+          "url": "https://www.prte.com.br/colabore-conosco.html"
+        }
+      ]
     }
   ],
   "theme": {

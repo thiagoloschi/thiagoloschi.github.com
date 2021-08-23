@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import { Logo } from './look';
+import {Logo} from './look';
+import {useImage} from 'hooks';
 
-const Logos = ({ image, company, local, fallback }) => {
-  const [imgExists, setImgExist] = useState(true);
+export function Logos({ image, company, local, fallback }) {
+  const {imgExists, setImgExist, imgFile} = useImage({image, local});
 
   if (local) {
-    const imgFile = require(`images/${image}`).default;
-
     if (imgFile) {
       return <Logo src={imgFile} />;
     }
@@ -28,5 +27,3 @@ Logos.propTypes = {
   local: PropTypes.bool,
   fallback: PropTypes.node,
 };
-
-export default Logos;

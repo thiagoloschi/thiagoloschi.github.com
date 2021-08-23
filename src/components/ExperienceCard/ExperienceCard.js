@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Date, ImageWrapper } from 'components/Card/look';
+import { Title, ImageWrapper } from 'components/Card/look';
 import { FixedSizeCard, Description, Company } from './look';
 import { Logos } from 'components';
 
 export default function ExperienceCard({
-  period,
   jobTitle,
   company,
   industry,
   location,
+  contacts,
   description,
   url,
   image,
@@ -17,7 +17,6 @@ export default function ExperienceCard({
   text,
   local = false,
 }) {
-  const { beginDate, endDate } = period;
 
   return (
     <FixedSizeCard color={color} text={text}>
@@ -35,24 +34,17 @@ export default function ExperienceCard({
             company={company}
           />
         </ImageWrapper>
-        {/* <Date>
-          {beginDate} - {endDate}
-        </Date> */}
         {industry && <small>{String(industry).toUpperCase()}</small>}
       </Title>
       <p>
         {jobTitle} - <small>{location}</small>
       </p>
-      <Description>{description}</Description>
+      {description && <Description>{description}</Description>}
     </FixedSizeCard>
   );
 }
 
 ExperienceCard.propTypes = {
-  period: PropTypes.shape({
-    beginDate: PropTypes.string,
-    endDate: PropTypes.string,
-  }),
   jobTitle: PropTypes.string,
   company: PropTypes.string,
   image: PropTypes.string,
@@ -62,4 +54,5 @@ ExperienceCard.propTypes = {
   color: PropTypes.string,
   text: PropTypes.string,
   industry: PropTypes.string,
+  contacts: PropTypes.array,
 };
